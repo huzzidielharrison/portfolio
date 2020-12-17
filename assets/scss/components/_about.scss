@@ -1,0 +1,43 @@
+.about {
+    min-height: 100vh;
+    color: $white;
+    background-color: $black-90;
+    padding: $padding-section 0 $padding-section 0;
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
+
+    @include breakpoint(medium only){
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
+    }
+
+    @include breakpoint(small only) {
+        clip-path: unset;
+
+        .description-about-me {
+            margin-top: $mt-paragraph;
+
+            .h3{
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .h2 {
+        margin-top: 200px;
+    }
+
+    .description-about-me {
+        margin-top: $mt-paragraph;
+
+        .description-icon {
+            margin-top: 50px;
+            .icon {
+                margin-right: 20px;
+            }
+        }
+
+        img {
+            margin-top: 50px;
+            max-height: 520px;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.heading {
+    font-family: $primary-font;
+
+    &.h1 {
+        font-size: 4rem;
+        line-height: 1.09;
+        letter-spacing: 12px;
+        font-weight: $extra-bold;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+
+        @include breakpoint(large down){
+            font-size: 8.2rem;
+            line-height: 1.08;
+        }
+
+        @include breakpoint(small only){
+            font-size: 4.7rem;
+        }
+    }
+
+    &.h2 {
+        font-size: 5.5rem;
+        line-height: 1.09;
+        font-weight: $bold;
+        text-transform: uppercase;
+        font-family: $secondary-font;
+
+        @include breakpoint(large down){
+            font-size: 4.5rem;
+            line-height: 1.11;
+        }
+
+        @include breakpoint(medium down){
+            font-size: 4rem;
+        }
+    }
+
+    &.h3 {
+        font-size: 3.5rem;
+        line-height: 1.14;
+        display: inline-block;
+        font-weight: $semi-bold;
+        padding-bottom: 5px;
+        border-bottom: 3px solid $white;
+
+        @include breakpoint(medium down){
+            font-size: 3rem;
+            line-height: 1.16;
+        }
+    }
+
+    &.h4 {
+        font-size: 3.5rem;
+        line-height: 1.14;
+        font-weight: $regular;
+
+        @include breakpoint(medium down){
+            font-size: 2.4rem;
+        }
+    }
+
+    &.h5 {
+        line-height: 1.2;
+        font-size: 2rem;
+        font-weight: $regular;
+    }
+}
+
+.paragraph {
+    font-size: 1.6rem;
+}
