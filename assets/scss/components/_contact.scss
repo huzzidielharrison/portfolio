@@ -1,0 +1,26 @@
+.contact {
+    min-height: 100vh;
+    color: $white;
+    background-color: $black-90;
+    padding: $padding-section 0 $padding-section 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+    @include breakpoint(medium down){
+        clip-path: unset;
+    }
+
+
+    .h2 {
+        margin-top: 200px;
+    }
+
+    .social-link {
+        margin-top: 50px;
+        text-align: center;
+
+        svg {
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
