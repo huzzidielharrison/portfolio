@@ -3,10 +3,10 @@
         <div class="grid-x">
             <div class="cell flex-container align-center align-center">
                 <div class="flex-container flex-dir-column align-center align-middle">
-                    <img class="avatar" src="../../assets/images/huzzidiel.jpg" alt="Avatar">
+                    <img class="avatar scroll-track right-left delay-2" src="../../assets/images/huzzidiel.jpg" alt="Avatar">
                     <h1>
-                        <span class="heading h1 uppercase full-name">Huzzidiel Harrison</span>
-                        <span class="heading h5 uppercase profession">Ing. en sistemas computacionales</span>
+                        <span class="heading h1 uppercase full-name scroll-track left-right delay-2">Huzzidiel Harrison</span>
+                        <span class="heading h5 uppercase profession scroll-track left-right delay-2">Ing. en sistemas computacionales</span>
                     </h1>
                 </div>
             </div>

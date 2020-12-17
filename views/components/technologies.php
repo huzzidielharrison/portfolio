@@ -1,6 +1,6 @@
 <div class="technologies">
     <div class="grid-container">
-        <div class="grid-x grid-margin-x">
+        <div class="grid-x grid-margin-x scroll-track left-right delay-2">
             <div class="cell">
                 <h2 class="heading h2">Tecnologías</h2>
             </div>

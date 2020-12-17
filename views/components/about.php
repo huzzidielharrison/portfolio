@@ -7,11 +7,11 @@ use helpers\Svg;
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
             <div class="cell">
-                <h2 class="heading h2">Sobre mi</h2>
+                <h2 class="heading h2 scroll-track left-right delay-2">Sobre mi</h2>
             </div>
             <div class="cell description-about-me">
                 <div class="grid-x grid-padding-x">
-                    <div class="cell medium-6 ">
+                    <div class="cell medium-6 scroll-track right-left delay-2">
                         <h3 class="heading h3">Profesional</h3>
                         <img src="../../assets/images/working-2.jpg" alt="place work">
                         <div class="flex-container align-middle description-icon">
@@ -43,7 +43,7 @@ use helpers\Svg;
                                 vamos por más</p>
                         </div>
                     </div>
-                    <div class="cell medium-6">
+                    <div class="cell medium-6 scroll-track right-left delay-2">
                         <h3 class="heading h3">¿Quien es Huzzidiel?</h3>
                         <div class="flex-container align-center">
                             <img src="../../assets/images/me-siclismo-2.jpg"

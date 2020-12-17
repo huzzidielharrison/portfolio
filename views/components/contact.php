@@ -7,7 +7,7 @@ use helpers\Svg;
 
 <div class="contact f-center-xy">
     <div class="grid-container">
-        <div class="grid-x grid-margin-x">
+        <div class="grid-x grid-margin-x scroll-track left-right delay-2">
             <div class="cell medium-4 social-link">
                 <a href="mailto:huzzidielharrison@gmail.com" target="_blank">
                     <?php Svg::render('icon-email', '', '', 'assets/images/icons/') ?>
