@@ -23,6 +23,8 @@
         font-size: 5.5rem;
         line-height: 1.09;
         font-weight: $bold;
+        text-transform: uppercase;
+        font-family: $secondary-font;
 
         @include breakpoint(large down){
             font-size: 4.5rem;
@@ -37,7 +39,10 @@
     &.h3 {
         font-size: 3.5rem;
         line-height: 1.14;
+        display: inline-block;
         font-weight: $semi-bold;
+        padding-bottom: 5px;
+        border-bottom: 3px solid $white;
 
         @include breakpoint(medium down){
             font-size: 3rem;
@@ -60,4 +65,8 @@
         font-size: 2rem;
         font-weight: $regular;
     }
+}
+
+.paragraph {
+    font-size: 1.6rem;
 }

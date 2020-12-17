@@ -5,6 +5,9 @@ $image-path: '/assets/images/';
 // Colors - secondary
 $white: #FFFFFF;
 $black: #000000;
+$black-90: #111111;
+$light-white: #F0F5F4;
+$violet: #0a0e2bde;
 
 
 // Fonts
@@ -14,8 +17,8 @@ $medium: 500;
 $regular: 400;
 $semi-bold: 600;
 $extra-bold: 800;
-$primary-font: 'ProximaNova', sans-serif;
-$secondary-font: 'SohneBreitTest', sans-serif;
+$primary-font: 'baloo', sans-serif;
+$secondary-font: 'russo-one', sans-serif;
 
 // Z Index
 $z-index-0: 0;
@@ -30,3 +33,8 @@ $transition-expertise-image: all 0.5s ease-in-out;
 $transition-tertiary: all 1200ms cubic-bezier(.34,.41,.03,1);
 $transition-primary: all .4s cubic-bezier(0.64, 0.05, 0.35, 1.05);
 $transition-secondary: transform 0.2s cubic-bezier(0.4, 0.22, 0.28, 1);
+
+
+//margins and paddings
+$mt-paragraph: 50px;
+$padding-section: 70px;

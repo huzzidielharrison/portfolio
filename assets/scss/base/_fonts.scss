@@ -1,7 +1,14 @@
-/* ProximaNova */
 @font-face {
-    font-family: 'comfortaa';
-    src: url('#{$font-path}comfortaa.ttf') format('truetype');
+    font-family: 'baloo';
+    src: url('#{$font-path}baloo2-regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'baloo';
+    src: url('#{$font-path}baloo2-semibold.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;

@@ -15,5 +15,7 @@ $pageDescription = $pageDescription ?? 'My portfolio';
 
     <title><?= $pageTitle ?></title>
 
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon-64x64.png">
     <link href="/dist/app.css" rel="stylesheet">
 </head>
