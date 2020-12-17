@@ -11,6 +11,7 @@ use helpers\View;
 <main>
     <?php View::render('components/header') ?>
     <?php View::render('components/about') ?>
+    <?php View::render('components/technologies') ?>
 </main>
 
 <!-- Footer -->

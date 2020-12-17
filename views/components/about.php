@@ -79,3 +79,4 @@ use helpers\Svg;
             </div>
         </div>
     </div>
+</div>
