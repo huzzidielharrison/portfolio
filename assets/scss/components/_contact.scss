@@ -3,11 +3,6 @@
     color: $white;
     background-color: $black-90;
     padding: $padding-section 0 $padding-section 0;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-
-    @include breakpoint(medium down){
-        clip-path: unset;
-    }
 
 
     .h2 {
@@ -21,6 +16,17 @@
         svg {
             width: 250px;
             height: 250px;
+        }
+    }
+
+    @include breakpoint(medium down){
+        clip-path: unset;
+
+        .social-link {
+            svg {
+                width: 150px;
+                height: 150px;
+            }
         }
     }
 }
